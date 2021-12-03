@@ -1,0 +1,49 @@
+/* .logo 
+{
+    width: -100px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+}
+/* .logo img{
+    width: 100px;
+} 
+header ul{
+display: flex;
+
+}
+ */
+header .first
+{
+    display: flex;
+    justify-content:flex-start;
+}
+header .logo img{
+    width: initial;
+    height: 100px;
+}
+header  ul{
+    display: flex;
+    list-style-type: none;
+    margin-top:30px ;
+    }
+.menu li a{
+    margin-left: 15px;
+    line-height: -800px;
+    text-decoration: none ;
+    color: black;
+    font-weight:bold;
+}
+.second ol{
+    display: flex;
+    
+}
+.second ol li a{
+    margin: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
