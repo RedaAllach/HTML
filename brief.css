@@ -38,6 +38,7 @@ header  ul{
 }
 .second ol{
     display: flex;
+    list-style-type: none;
     
 }
 .second ol li a{
@@ -45,5 +46,35 @@ header  ul{
     list-style-type: none;
     text-decoration: none;
     color: black;
+
     
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.product{
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+}
+.card{
+   border: solid black 2px;
+   margin: 20px;
+
+}
+.RRP1{
+    color: gray;
+    margin: 20px;
+}
+.saving1{
+    color: green;
+    margin: 20px;
+}
+.PRICE1{
+    margin: 20px;
+}
+.titre{
+    margin: 20px;
 }
