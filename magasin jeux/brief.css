@@ -45,11 +45,13 @@
 .card{
     border:2px solid black;
     margin: 20px;
+    display: inline-block;
+    width: 250px;
 
 }
 .image{
-    width: 290px;
-    padding: 20px;
+    width: 100%;
+    
 }
 .titre{
     padding-left: 20px;
@@ -111,16 +113,17 @@ header  ul{
 }
 .product{
     display: flex;
-    margin: 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card{
    border: solid black 2px;
    margin: 20px;
+   width: 250px;
 
 }
 .RRP1{
-    color: gray;
+    color: rgb(80, 77, 77);
     margin: 20px;
 }
 .saving1{
